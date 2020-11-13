@@ -1,0 +1,17 @@
+#mainNav .navbar-brand {
+  margin: 0px 0px 0px 74px;
+  margin-top: 100px;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  /*position: absolute;*/
+  /*width: 1440px;*/
+  left: 0px;
+  /*top: 171px;*/
+  /*background: #F0F4EF;*/
+  max-height: 800px;
+}
+
+tr {
+}
+
