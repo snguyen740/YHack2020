@@ -1,19 +1,20 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Overview from './Overview.js';
-import Repositories from './Repositories.js';
-import Stars from './Stars.js';
-import Followers from './Followers.js';
-import Following from './Following.js';
+import Home from './Home.js';
+import About from './About.js';
+import Volunteer from './Volnuteer.js';
+import SignIn from './SignIn.js';
+import Calendar from './Calendar.js';
+import Mains from './Main.css';
 
 const Main = () => (
-  <div>
+  <div class = "background">
     <Switch>
-      <Route path='/Overview' component={Overview} />
-      <Route path='/Repositories' component={Repositories} />
-      <Route path='/Stars' component={Stars} />
-      <Route path='/Followers' component={Followers} />
-      <Route path='/Following' component={Following} />
+      <Route path='/Home' component={Home} />
+      <Route path='/About' component={About} />
+      <Route path='/Volunteer' component={Volunteer} />
+      <Route path='/SignIn' component={SignIn} />
+      <Route path='/Calendar' component={Calendar} />
     </Switch>
   </div>
 )

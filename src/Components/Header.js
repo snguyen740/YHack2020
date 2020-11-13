@@ -8,11 +8,11 @@ class Header extends Component {
   handleClick = (index) => this.setState({ activeIndex: index });
   render() {
     const clickables = [
-    { name: "Overview" },
-    { name: "Repositories" },
-    { name: "Stars" },
-    { name: "Followers" },
-    { name: "Following" }
+    { name: "Home" },
+    { name: "About" },
+    { name: "Volunteer/orgs" },
+    { name: "SignIn/SignUp" },
+    { name: "Calendar" }
   ];
   return (
     <div>
