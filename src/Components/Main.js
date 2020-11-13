@@ -5,7 +5,6 @@ import About from './About.js';
 import Volunteer from './Volnuteer.js';
 import SignIn from './SignIn.js';
 import Calendar from './Calendar.js';
-import Mains from './Main.css';
 
 const Main = () => (
   <div class = "background">
