@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './Home.js';
 import About from './About.js';
-import Volunteer from './Volnuteer.js';
+import Volunteer from './Volunteer.js';
 import SignIn from './SignIn.js';
 import Calendar from './Calendar.js';
 
